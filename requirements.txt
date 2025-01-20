@@ -1,8 +1,2 @@
-Flask==2.2.5
-Flask-SQLAlchemy
-Flask-APScheduler
-flask_cors
-PyYAML
-subgrounds
-#psycopg2
-psycopg2-binary
+flask
+gunicorn
