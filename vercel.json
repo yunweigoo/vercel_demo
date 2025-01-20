@@ -3,13 +3,13 @@
   "builds": [
     {
       "src": "app.py",
-      "use": "@vercel/python3.8.5"
+      "use": "@vercel/python"
     }
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/api"
+      "src": "/(.*)",
+      "dest": "/app.py"
     }
   ]
 }
